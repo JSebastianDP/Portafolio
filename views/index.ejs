@@ -1,13 +1,23 @@
+<%- include('template/navbar'); %>
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <%- include('template/navbar'); %>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido a la página principal</title>
-</head>
-<body>
-    <h1>En la barra de navegacion puede seleccionar a donde ir</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vídeo Background</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+  </head>
+  <body>
+    <header class="header content">
+      <div class="header-video">
+        <video src="/static/keyboard.mp4" autoplay loop></video>
+      </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        
+        <h1>Sebastian Diaz Parra</h1>
+        <p>Ingeniero de software entusiasta de la tecnologia y en la creacion de paginas web.</p>
+      </div>
+    </header>
+  </body>
 </html>
