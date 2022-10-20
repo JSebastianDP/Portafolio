@@ -701,3 +701,20 @@ input[type="submit"], a {
        bottom:-450px;
        right:500px;
     }
+    .container {
+        border: 1px solid #000;
+    }
+    .java{
+        height: 275px; 
+        width:200%;
+     
+    }
+    .php{
+        height: 250px; 
+     
+    }
+    .html{
+        height: 250px; 
+        width:100%;
+    
+    }
